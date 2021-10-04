@@ -12,3 +12,10 @@ const cleanNames = arr => {
 
 // More cleaner syntax
 const cleanNames = arr => arr.map(name => name.trim());
+
+// Proven to work 10.4.2021
+const firstNames=fullNames.map(function(f){
+
+  return f.first
+
+})
